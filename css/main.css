@@ -26,5 +26,5 @@ menu li a {
     display: inline-block;
     height: 50px;
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
 }
