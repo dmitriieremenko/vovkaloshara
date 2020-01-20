@@ -1,30 +1,48 @@
-nav {
+body {
     background: brown;
-    border-radius: 5px;
-    height: 50px;
-    line-height: 50px;
-    max-width: 900px;
+    max-width: 960px;
+    margin: 0 auto;
 }
-menu {
-    list-style: none;
+div {
+    border: 1px solid black;
+    padding: 5px 15px;
 }
-menu li {
-    display: inline-block;
-    padding: 0 25px;
-    background-color:seagreen;
-    height: 50px;
-    margin: 0 -2px;
-    border-right: solid 2px black;
+h4 {
+    text-align: center;
 }
-menu li:first-child {
-    border-left: solid 2px black;
+.header {
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background: greenyellow;
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px cornsilk;
 }
-menu li:hover {
-    background: blueviolet;
+.sidebar {
+    background: rgb(255, 204, 0);
+    float: left;
+    margin-right: 10px;
+    max-width: 200px;
+    min-width: 150px;
 }
-menu li a {
-    display: inline-block;
-    height: 50px;
-    color: #000000;
-    text-decoration: none;
+.sidebar1 {
+    background: rgb(255, 204, 0);
+    float: right;
+    margin-left: 10px;
+    max-width: 200px;
+}
+.conteiner {
+    background: rgb(247, 247, 247);
+    margin-bottom: 10px;
+    box-shadow:0 0 10px cornsilk;
+    text-align: justify;
+}
+.footer {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    box-shadow:0 0 10px cornsilk;
+    
 }

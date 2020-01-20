@@ -3,99 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="unravemaN">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Мой первый сайт</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
 </head>
-<script> 
-    window.onload = function() {
-     var drawingCanvas = document.getElementById('smile');
-     if(drawingCanvas && drawingCanvas.getContext) {
-      var context = drawingCanvas.getContext('2d');
-      context.strokeStyle = "#000";
-      context.fillStyle = "#fc0";
-      context.beginPath();
-      context.arc(100,100,50,0,Math.PI*2,true);
-      context.closePath();
-      context.stroke();
-      context.fill();
-      context.fillStyle = "#fff";
-      context.beginPath();
-      context.arc(84,90,8,0,Math.PI*2,true);
-      context.closePath();
-      context.stroke();
-      context.fill();
-      context.beginPath();
-      context.arc(116,90,8,0,Math.PI*2,true);
-      context.closePath();
-      context.stroke();
-      context.fill();
-      context.beginPath();
-      context.moveTo(70,115);
-      context.quadraticCurveTo(100,130,130,115);
-      context.quadraticCurveTo(100,150,70,115); 
-      context.closePath();
-      context.stroke();
-      context.fill();
-     }
-    }
-   </script>
 <body>
-    <header class="header">
-<h1>New Text</h1>
-<nav>
-    <menu>
-        <li><a href="https://earth.google.com/web/" target="_blank">Мда</a></li>
-        <li><a href="https://earth.google.com/web/" target="_blank">Html</a></li>
-        <li><a href="https://earth.google.com/web/" target="_blank">So Easy</a></li>
-        <li><a href="https://earth.google.com/web/" target="_blank">Шо я ебал</a></li>
-        <li><a href="https://earth.google.com/web/" target="_blank">Его маму в рот</a></li>
-    </menu>
-</nav>
-    </header>
-    <section>
-    <canvas id="smile" width="200" height="200"></canvas>
-    <audio src="audio/PharaoH.mp3" controls loop></audio>
-<img src="img/1.jpg" alt="Map" width="640" height="420" usemap="#Navigation">
-<map name="Navigation">
-<area shape="circle" coords="490,370,220" href="https://earth.google.com/web/" alt="Ссылка1">
-    <ol type="I" reversed>
-       <li>Ссылка1</li>
-       <li>Ссылка1</li>
-       <li>Ссылка1</li>
-       <li>Ссылка1</li> 
-       <li>Ссылка1</li>
-       <li>Ссылка1</li>
-       <li>Ссылка1</li>
-       <li>Ссылка1</li>
-    </ol>
-<ul type="square">
-    <li><a href="https://earth.google.com/web/">Пики точенные</a></li> 
-    <li><a href="https://earth.google.com/web/">Хуи дроченные</a></li>
-    <li><a href="https://earth.google.com/web/">Хуй не веревка</a></li>
-    <li><a href="https://earth.google.com/web/">Махать им не ловко</a></li>
-    <li><a href="https://earth.google.com/web/">Тюрьма не хуй</a></li>
-    <li><a href="https://earth.google.com/web/">Сиди кайфуй</a></li>
-    <li><a href="https://earth.google.com/web/">А вообще идите нахуй</a></li>
-</ul>
-<dl>
-    <dt>Термин</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta atque, odit excepturi possimus debitis expedita quae dolores iusto vero illum voluptatibus ullam soluta cum sed repellat optio error earum?</dd>
-    <dt>Термин</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta atque, odit excepturi possimus debitis expedita quae dolores iusto vero illum voluptatibus ullam soluta cum sed repellat optio error earum?</dd>
-    <dt>Термин</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta atque, odit excepturi possimus debitis expedita quae dolores iusto vero illum voluptatibus ullam soluta cum sed repellat optio error earum?</dd>
-    <dt>Термин</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta atque, odit excepturi possimus debitis expedita quae dolores iusto vero illum voluptatibus ullam soluta cum sed repellat optio error earum?</dd>
-    <dt>Термин</dt>
-    <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dicta atque, odit excepturi possimus debitis expedita quae dolores iusto vero illum voluptatibus ullam soluta cum sed repellat optio error earum?</dd>
-</dl>
-    </section>
-    <footer>
-<h1>Contacts</h1>
-<p>Number: 5555555</p>
-    </footer>
+    <div class="header">
+<h1>Шапка моего сайта</h1>
+    </div>
+    <div class="sidebar">
+        <h4>Меню:</h4>
+        <ul>
+            <li><a href="#"></a>Главная</li>
+            <li><a href="#"></a>Форум</li>
+            <li><a href="#"></a>Статьи</li>
+            <li><a href="#"></a>Файлы</li>
+            <li><a href="#"></a>Гайды</li>
+        </ul>
+    </div>
+    <div class="sidebar1">
+        <h4>Новости:</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio nam alias assumenda, obcaecati aut ab aliquid harum. Rerum nostrum explicabo non dolores autem! Corrupti officia laudantium odio aut vitae?</p>
+    </div>
+    <div class="conteiner">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ab ut perferendis tenetur laborum quis iste pariatur dolor incidunt beatae excepturi nostrum fugit, sit aut temporibus modi quod ullam maxime eveniet accusamus. Quos pariatur eos labore excepturi natus. Architecto odit repellat numquam, similique perferendis aliquam provident, omnis adipisci error, atque doloribus totam doloremque nulla dignissimos alias asperiores reprehenderit magnam voluptatibus quaerat ducimus praesentium aspernatur officia dolor. Repellat earum suscipit nemo vero corrupti, similique aut praesentium quis vel atque rem odio quam quia architecto quidem commodi nobis veritatis libero ex doloremque animi cupiditate laboriosam. Consequuntur veniam illo quis alias, doloremque inventore explicabo voluptate vero, quas voluptatum ea quisquam est dolores? Et asperiores autem fugiat eveniet at magni tenetur quam, earum possimus, exercitationem inventore! Vitae ipsam, quidem expedita quo deserunt ipsum temporibus labore accusantium earum doloremque. Aperiam, possimus officiis dignissimos optio omnis qui quisquam laboriosam, quibusdam mollitia odio blanditiis modi numquam nam.</p>
+    </div>
+    <div class="footer">
+        Все права защищены (с)
+    </div>
 </body>
 </html>
