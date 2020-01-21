@@ -53,3 +53,36 @@ h4 {
     box-shadow:0 0 10px cornsilk;
     
 }
+textarea {
+    resize: none;
+}
+form fieldset {
+width: 700px;
+}
+form legend, form label {
+font-size: 20px;
+font-weight: bold;
+}
+form button {
+height: 50px;
+font-size: 20px;
+background: rgb(0, 204, 255);
+border-radius: 15px;
+padding: 10px 15px;
+line-height: 25px;
+border: none;
+}
+form button:hover {
+    background: rgb(5, 5, 5);
+    color: #fff;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(0, 204, 255);
+    padding-left: 10px;
+    box-shadow: 1px 1px 8px rgb(0, 204, 255);
+}

@@ -14,28 +14,40 @@
     <div class="sidebar">
         <h4>Меню:</h4>
         <ul>
-            <li><a href="#">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="#">Форум</a></li>
             <li><a href="#">Статьи</a></li>
             <li><a href="#">Файлы</a></li>
             <li><a href="#">Гайды</a></li>
         </ul>
     </div>
-    <div class="sidebar2">
-        <h4>Профиль:</h4>
-    <form action="">
-        <input type="text" placeholder="Login" required><br>
-        <input type="password" placeholder="Password" required><br>
-        <input type="radio" placeholder="Запомнить данные входа">Запомнить данные входа<br>
-        <center><input type="button" value="Войти"><input type="button" value="Регестрация"><input type="reset" value="Сброс"><br></center>
-    </form>
-    </div>
-    <div class="sidebar1">
-        <h4>Новости:</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod distinctio nam alias assumenda, obcaecati aut ab aliquid harum. Rerum nostrum explicabo non dolores autem! Corrupti officia laudantium odio aut vitae?</p>
-    </div>
     <div class="conteiner">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ab ut perferendis tenetur laborum quis iste pariatur dolor incidunt beatae excepturi nostrum fugit, sit aut temporibus modi quod ullam maxime eveniet accusamus. Quos pariatur eos labore excepturi natus. Architecto odit repellat numquam, similique perferendis aliquam provident, omnis adipisci error, atque doloribus totam doloremque nulla dignissimos alias asperiores reprehenderit magnam voluptatibus quaerat ducimus praesentium aspernatur officia dolor. Repellat earum suscipit nemo vero corrupti, similique aut praesentium quis vel atque rem odio quam quia architecto quidem commodi nobis veritatis libero ex doloremque animi cupiditate laboriosam. Consequuntur veniam illo quis alias, doloremque inventore explicabo voluptate vero, quas voluptatum ea quisquam est dolores? Et asperiores autem fugiat eveniet at magni tenetur quam, earum possimus, exercitationem inventore! Vitae ipsam, quidem expedita quo deserunt ipsum temporibus labore accusantium earum doloremque. Aperiam, possimus officiis dignissimos optio omnis qui quisquam laboriosam, quibusdam mollitia odio blanditiis modi numquam nam.</p>
+      <center>
+          <form action="">
+              <fieldset>
+                  <legend align="right">Форма регестрации</legend>
+                  <table>
+                      <tr>
+                          <td><label for="name">Логин:</label></td>
+                          <td><input type="text" placeholder="Login"></td>
+                      </tr>
+                      <tr>
+                        <td><label for="mail">Email:</label></td>
+                        <td><input type="text" placeholder="Email" type="email"</td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password:</label></td>
+                        <td><input type="password" placeholder="Password"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">О себе:</label></td>
+                        <td><textarea name="masage" id="" cols="50" rows="10"></textarea></td>
+                    </tr>
+                  </table>
+                  <button type="submit">Зарегаться!</button>
+              </fieldset>
+          </form>
+      </center>
     </div>
     <div class="footer">
         Все права защищены (с)
