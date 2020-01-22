@@ -3,13 +3,16 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
+
 div {
     border: 1px solid black;
     padding: 5px 15px;
 }
+
 h4 {
     text-align: center;
 }
+
 .header {
     border-radius: 10px 10px 0 0;
     margin-top: 20px;
@@ -20,6 +23,7 @@ h4 {
     margin-bottom: 10px;
     box-shadow: 0 0 10px cornsilk;
 }
+
 .sidebar {
     background: rgb(255, 204, 0);
     float: left;
@@ -27,12 +31,14 @@ h4 {
     max-width: 200px;
     min-width: 150px;
 }
+
 .sidebar2 {
     background: rgb(255, 204, 0);
     float: right;
     margin-left: 10px;
     max-width: 200px;
 }
+
 .sidebar1 {
     background: rgb(255, 204, 0);
     float: right;
@@ -43,40 +49,49 @@ h4 {
 .conteiner {
     background: rgb(247, 247, 247);
     margin-bottom: 10px;
-    box-shadow:0 0 10px cornsilk;
+    box-shadow: 0 0 10px cornsilk;
     text-align: justify;
 }
+
 .footer {
     font-weight: bold;
     color: rgb(255, 255, 255);
     background: rgb(0, 0, 0);
-    box-shadow:0 0 10px cornsilk;
-    
+    box-shadow: 0 0 10px cornsilk;
+
 }
+
 textarea {
     resize: none;
 }
+
 form fieldset {
-width: 700px;
+    width: 700px;
 }
-form legend, form label {
-font-size: 20px;
-font-weight: bold;
+
+form legend,
+form label {
+    font-size: 20px;
+    font-weight: bold;
 }
+
 form button {
-height: 50px;
-font-size: 20px;
-background: rgb(0, 204, 255);
-border-radius: 15px;
-padding: 10px 15px;
-line-height: 25px;
-border: none;
+    height: 50px;
+    font-size: 20px;
+    background: rgb(0, 204, 255);
+    border-radius: 15px;
+    padding: 10px 15px;
+    line-height: 25px;
+    border: none;
 }
+
 form button:hover {
     background: rgb(5, 5, 5);
     color: #fff;
 }
-form input, form textarea {
+
+form input,
+form textarea {
     margin-bottom: 10px;
     margin-left: 20px;
     font-size: 16px;
@@ -86,27 +101,3 @@ form input, form textarea {
     padding-left: 10px;
     box-shadow: 1px 1px 8px rgb(0, 204, 255);
 }
-          <form action="">
-              <fieldset>
-                  <legend align="right">Форма регестрации</legend>
-                  <table>
-                      <tr>
-                          <td><label for="name">Логин:</label></td>
-                          <td><input type="text" placeholder="Login"></td>
-                      </tr>
-                      <tr>
-                        <td><label for="mail">Email:</label></td>
-                        <td><input type="text" placeholder="Email" type="email"></td>
-                    </tr>       
-                    <tr>
-                        <td><label for="">Password:</label></td>
-                        <td><input type="password" placeholder="Password"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="">О себе:</label></td>
-                        <td><textarea name="masage" id="" cols="50" rows="10"></textarea></td>
-                    </tr>
-                  </table>
-                  <button type="submit">Зарегаться!</button>
-              </fieldset>
-          </form>
